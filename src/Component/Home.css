@@ -1,0 +1,45 @@
+/* Add this CSS to Home.css for animations */
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-up {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 1s ease-out;
+  }
+  
+  .animate-slide-up {
+    animation: slide-up 1s ease-out;
+  }
+  
+  .animate-delay-1s {
+    animation-delay: 1s;
+  }
+  
+  .animate-delay-2s {
+    animation-delay: 2s;
+  }
+  
+  .animate-delay-3s {
+    animation-delay: 3s;
+  }
+  
+  .animate-delay-4s {
+    animation-delay: 4s;
+  }
+  
