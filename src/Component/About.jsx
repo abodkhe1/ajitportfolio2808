@@ -24,7 +24,7 @@ function About() {
           {/* Content */}
           <div className="w-full md:w-1/2">
             <p className="text-lg text-gray-700 mb-6">
-              Hi, I'm <span className="font-bold text-gray-800">Ajit Bodkhe</span>, a passionate Full Stack Developer with 1.6 years of experience in building and maintaining web applications using the MERN stack. My journey in web development started with a deep interest in creating dynamic and user-friendly applications.
+              Hi, I'm <span className="font-bold text-gray-800">Ajit Bodkhe</span>, a passionate Full Stack Developer with 2 years of experience in building and maintaining web applications using the MERN stack. My journey in web development started with a deep interest in creating dynamic and user-friendly applications.
             </p>
             <p className="text-lg text-gray-700 mb-6">
               My expertise lies in JavaScript and TypeScript, and I have a strong command over front-end technologies like React.js, as well as back-end development with Node.js, Express, and MongoDB. I enjoy solving complex problems and continuously improving my skills.
