@@ -24,7 +24,7 @@ function Resume() {
     doc.setFont("helvetica", "normal");
     doc.setFontSize(12);
     const profileSummary = doc.splitTextToSize(
-      "Full-Stack Developer with 1.6 years of experience. Proficient in Node.js, PHP, and MySQL.",
+      "Full-Stack Developer with 2 years of experience. Proficient in Node.js, PHP, and MySQL.",
       190
     );
     doc.text(profileSummary, 10, 75);
@@ -78,7 +78,7 @@ function Resume() {
     doc.setFont("helvetica", "bold");
     doc.text("Software Developer - GRT Solutions", 10, grtStartY);
     doc.setFont("helvetica", "normal");
-    doc.text("December 2022 - January 2024", 10, grtStartY + 10);
+    doc.text("June 2022 - January 2024", 10, grtStartY + 10);
     const grtDetails = doc.splitTextToSize(
       "1) Developed RESTful APIs with Node.js and PHP.\n" +
       "2) Integrated server-side logic with user-facing elements.\n" +
@@ -146,7 +146,7 @@ function Resume() {
           <section className="mb-12">
             <h2 className="text-3xl font-semibold text-gray-800 mb-4">Profile Summary</h2>
             <p className="text-lg text-gray-700">
-              Full-Stack Developer with 1.6 years of experience. Proficient in Node.js, PHP, and MySQL.
+              Full-Stack Developer with 2 years of experience. Proficient in Node.js, PHP, and MySQL.
               Adept at converting complex concepts into functional, high-quality web applications that drive
               business performance and efficiency.
             </p>
@@ -194,7 +194,7 @@ function Resume() {
             <div>
               <h3 className="text-2xl font-semibold text-gray-800 mb-2">Software Developer</h3>
               <p className="text-lg text-gray-700 mb-2">GRT Solutions</p>
-              <p className="text-lg text-gray-700 mb-2">December 2022 - January 2024</p>
+              <p className="text-lg text-gray-700 mb-2">June 2022 - January 2024</p>
               <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
                 <li>Developed RESTful APIs with Node.js and PHP.</li>
                 <li>Integrated server-side logic with user-facing elements.</li>
